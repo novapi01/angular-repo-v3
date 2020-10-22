@@ -1,0 +1,15 @@
+<h2>Todo-Details Component</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>DATE</th>
+        <th>TITLE</th>
+        <th>DESCRIPTION</th>
+    </tr>
+    <tr *ngFor="let A of tododetails">
+        <td>{{A.id}}</td>
+        <td>{{A.date}}</td>
+        <td>{{A.title}}</td>
+        <td>{{A.des}}</td>
+    </tr>
+</table>
