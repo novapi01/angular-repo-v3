@@ -1,0 +1,33 @@
+.cdet{
+    color : gainsboro;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: darkgrey;
+    border-width: 3px;
+    padding: 3;
+  }
+  #centerr {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #centerr td, #centerr th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #centerr tr:hover {
+        background-color: #ddd;
+        color: black;
+    }
+  
+  #centerr th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: slategray;
+    color: white;
+  }

@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="list">
+<h2 class="headertekst">TODO LIST</h2><br>
+<ul class="demo" >
+    <li  *ngFor="let a of todolist">{{a.title}}  <button class="btn" (click)="deletelist(a)"><i class="fa fa-trash"></i></button></li>
+</ul>
+</div><br>

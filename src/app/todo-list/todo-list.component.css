@@ -1,0 +1,28 @@
+
+.list{
+    color : gainsboro;
+    text-align: center;
+}
+ul.demo {
+    list-style-type: none;
+    margin: 0px 0px 0px 100px;
+    padding: 0;
+    text-align: center;
+  }
+  .btn {
+    margin: 2px 50px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  h2.headertekst {
+    text-align: center;
+  }
